@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5903719436435953377}
   - component: {fileID: 3859952583388768288}
   - component: {fileID: 654868940852382528}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mario
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -98,7 +98,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1439729510208054315}
   - component: {fileID: 2333760535898466858}
-  m_Layer: 0
+  - component: {fileID: 1327863795370760773}
+  m_Layer: 3
   m_Name: Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,6 +173,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1327863795370760773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6250817211320445834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf16bbe594cdc846a3b3e963b90a6ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idle: {fileID: 21300000, guid: 240157a7b4642fc43b03ac36d8b03908, type: 3}
+  jump: {fileID: 21300000, guid: d9e02ff2a47b2a8408b739d9ec935c8b, type: 3}
+  slide: {fileID: 21300000, guid: c7cfb106e5d259f439773d5e04cf6836, type: 3}
+  run: {fileID: 21300000, guid: 270c7da204fa5934d8f4562203700f40, type: 3}
 --- !u!1 &8188044147825577126
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,7 +199,8 @@ GameObject:
   m_Component:
   - component: {fileID: 968425020423679506}
   - component: {fileID: 3034385493286542686}
-  m_Layer: 0
+  - component: {fileID: 5214271605414989194}
+  m_Layer: 3
   m_Name: Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,3 +274,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5214271605414989194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8188044147825577126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf16bbe594cdc846a3b3e963b90a6ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idle: {fileID: 21300000, guid: da8312f4a62833a4d910d4afdb4dd973, type: 3}
+  jump: {fileID: 21300000, guid: 45d7b5c95cecd0c47b2b9a2c7f27a8dc, type: 3}
+  slide: {fileID: 21300000, guid: a124c3d35399641489e56d237f7156e2, type: 3}
+  run: {fileID: 21300000, guid: c92334695ebfd454f928d197b13e4645, type: 3}
