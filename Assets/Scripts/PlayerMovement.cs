@@ -79,4 +79,17 @@ public class PlayerMovement : MonoBehaviour
 
         rigidbody.MovePosition(position);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // As long as not a PowerUp, Mario's head will collide with an object
+        if (collision.gameObject.layer != LayerMask.NameToLayer("PowerUp"))
+        {
+            // Dot product (cos theta)
+            if (transform.DotTest(collision.transform, Vector2.up))
+            {
+                velocity.y = 0f;
+            }
+        }
+    }
 }

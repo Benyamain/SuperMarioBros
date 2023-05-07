@@ -21,4 +21,14 @@ public static class Extensions
         return hit.collider != null && hit.rigidbody != rigidbody;
         // Hit something and it was not our own player collider
     }
+
+    public static bool DotTest(this Transform transform, Transform other, Vector2 testDirection)
+    {
+        // Transform = Mario
+        // Other = Collided block
+        // b - a
+        Vector2 direction = other.position - transform.position;
+        return Vector2.Dot(direction.normalized, testDirection) > 0.25f;
+        // Normalization sets it to a scale of 1 (gets rid of magnitude)
+    }
 }
