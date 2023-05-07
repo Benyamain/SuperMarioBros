@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
             GroundedMovement();
         }
 
-        
+        ApplyGravity();
     }
 
     private void HorizontalMovement()
@@ -46,16 +46,24 @@ public class PlayerMovement : MonoBehaviour
 
     private void GroundedMovement()
     {
+        velocity.y = Mathf.Max(velocity.y, 0f);
         jumping = velocity.y > 0f;
 
-        if (inputAxis.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump"))
         {
             velocity.y = jumpForce;
             jumping = true;
         }
     }
 
-    
+    private void ApplyGravity()
+    {
+        bool falling = velocity.y < 0f || !Input.GetButton("Jump"); // Is button being held down at that current frame ; not holding down the button, apply a stronger multiplier
+        float multiplier = falling ? 2f : 1f;
+        velocity.y += gravity * multiplier * Time.deltaTime;
+        // Have terminal velocity so Mario does not fall too fast
+        velocity.y = Mathf.Max(velocity.y, gravity / 2f);
+    }
 
     // Rigidbody is typically handled with this method
     // Important for physics to make the game consistent
