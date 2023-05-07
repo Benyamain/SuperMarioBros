@@ -9500,5 +9500,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mario
       objectReference: {fileID: 0}
+    - target: {fileID: 6059670374855364937, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250817211320445834, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8188044147825577126, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
