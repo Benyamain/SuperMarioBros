@@ -47,6 +47,16 @@ public class PlayerMovement : MonoBehaviour
         {
             velocity.x = 0f;
         }
+
+        if (velocity.x > 0f)
+        {
+            // No change
+            transform.eulerAngles = Vector3.zero;
+        } else if (velocity.x < 0f)
+        {
+            // Flip Mario's head
+            transform.eulerAngles = new Vector3(0f, 180f, 0f);
+        }
     }
 
     private void GroundedMovement()
