@@ -2080,7 +2080,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
@@ -3153,6 +3153,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8976012833020007054, guid: 55525183826877041b262aea62a81cf1, type: 3}
   m_PrefabInstance: {fileID: 725533499}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &728306889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 728306891}
+  - component: {fileID: 728306890}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &728306890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728306889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309286d58bdea9443bb94cdb2b19b84f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &728306891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728306889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &729684025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6837,7 +6881,7 @@ Transform:
   - {fileID: 1512738378}
   - {fileID: 264022380}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1738033262
 PrefabInstance:
@@ -9454,7 +9498,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1481373333706541041, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1481373333706541041, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9499,18 +9543,6 @@ PrefabInstance:
     - target: {fileID: 6059670374855364937, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
       propertyPath: m_Name
       value: Mario
-      objectReference: {fileID: 0}
-    - target: {fileID: 6059670374855364937, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6250817211320445834, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188044147825577126, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
