@@ -6466,6 +6466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MysteryBlock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7574010663443848858, guid: daa0883778d223c47afe7ae212939c17, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: daa0883778d223c47afe7ae212939c17, type: 3}
 --- !u!4 &1404605551 stripped
