@@ -6644,6 +6644,10 @@ PrefabInstance:
       propertyPath: item
       value: 
       objectReference: {fileID: 6704021903363333306, guid: 960ac84ffc439374a9a9a110e62fbfad, type: 3}
+    - target: {fileID: 5989842124291052502, guid: 55525183826877041b262aea62a81cf1, type: 3}
+      propertyPath: maxHits
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8976012833020007054, guid: 55525183826877041b262aea62a81cf1, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -7087,6 +7091,14 @@ PrefabInstance:
     - target: {fileID: 5590194823276617641, guid: 55525183826877041b262aea62a81cf1, type: 3}
       propertyPath: m_Name
       value: Brick (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989842124291052502, guid: 55525183826877041b262aea62a81cf1, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 3694871347347415511, guid: fe5bc6a98237c3642b0be80469816871, type: 3}
+    - target: {fileID: 5989842124291052502, guid: 55525183826877041b262aea62a81cf1, type: 3}
+      propertyPath: maxHits
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8976012833020007054, guid: 55525183826877041b262aea62a81cf1, type: 3}
       propertyPath: m_RootOrder
