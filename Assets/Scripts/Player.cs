@@ -109,11 +109,13 @@ public class Player : MonoBehaviour
 
             if (Time.frameCount % 4 == 0)
             {
-                smallRenderer.enabled = !smallRenderer.enabled;
-                bigRenderer.enabled = !smallRenderer.enabled;
+                activeRenderer.spriteRenderer.color = UnityEngine.Random.ColorHSV(0f, 1f, 1f, 1f, 1f, 1f);
             }
+
+            yield return null;
         }
 
+        activeRenderer.spriteRenderer.color = Color.white;
         starpower = false;
     }
 }
