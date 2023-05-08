@@ -9,10 +9,13 @@ public class Player : MonoBehaviour
     public bool big => bigRenderer.enabled;
     public bool small => smallRenderer.enabled;
     public bool dead => deathAnimation.enabled;
+    private PlayerSpriteRenderer activeRenderer;
+    private CapsuleCollider2D capsuleCollider;
 
     private void Awake()
     {
         deathAnimation = GetComponent<DeathAnimation>();
+        capsuleCollider = GetComponent<CapsuleCollider2D>();
     }
     
     public void Hit()
@@ -26,11 +29,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Shrink()
-    {
-        // TODO
-    }
-
     private void Death()
     {
         smallRenderer.enabled = false;
@@ -38,5 +36,25 @@ public class Player : MonoBehaviour
         deathAnimation.enabled = true;
 
         GameManager.Instance.ResetLevel(3f);
+    }
+
+    public void Grow()
+    {
+        smallRenderer.enabled = false;
+        bigRenderer.enabled = true;
+        activeRenderer = bigRenderer;
+
+        capsuleCollider.size = new Vector2(1f, 2f);
+        capsuleCollider.offset = new Vector2(0f, 0.5f);
+    }
+
+    private void Shrink()
+    {
+        smallRenderer.enabled = true;
+        bigRenderer.enabled = false;
+        activeRenderer = smallRenderer;
+
+        capsuleCollider.size = new Vector2(1f, 1f);
+        capsuleCollider.offset = new Vector2(0f, 0f);
     }
 }
