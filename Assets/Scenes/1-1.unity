@@ -4221,6 +4221,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4760601495354945526, guid: 37289029b15b9bd40849f08767d3227f, type: 3}
   m_PrefabInstance: {fileID: 849646327}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &855797120 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2333760535898466858, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
+  m_PrefabInstance: {fileID: 1508065407979335353}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &883186658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10536,6 +10541,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 654868940852382528, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1481373333706541041, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -10584,5 +10593,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mario
       objectReference: {fileID: 0}
+    - target: {fileID: 7945692838343747036, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7945692838343747036, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
+      propertyPath: deadSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d7d3fcf81b0a76548a788118dc629c6e, type: 3}
+    - target: {fileID: 7945692838343747036, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 855797120}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
