@@ -4355,7 +4355,7 @@ PrefabInstance:
     - target: {fileID: 6080252429760202836, guid: daa0883778d223c47afe7ae212939c17, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 3694871347347415511, guid: fe5bc6a98237c3642b0be80469816871, type: 3}
+      objectReference: {fileID: 8092376272589972277, guid: b8d06381d7de4d848bcbf4d61f7ba137, type: 3}
     - target: {fileID: 6756577614079317020, guid: daa0883778d223c47afe7ae212939c17, type: 3}
       propertyPath: m_Name
       value: MysteryBlock (4)
@@ -6489,7 +6489,7 @@ PrefabInstance:
     - target: {fileID: 6080252429760202836, guid: daa0883778d223c47afe7ae212939c17, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 3694871347347415511, guid: fe5bc6a98237c3642b0be80469816871, type: 3}
+      objectReference: {fileID: 403808860255637968, guid: 07a0a8fdf3e472846b3b3854d895cd24, type: 3}
     - target: {fileID: 6756577614079317020, guid: daa0883778d223c47afe7ae212939c17, type: 3}
       propertyPath: m_Name
       value: MysteryBlock (13)
@@ -6640,6 +6640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5989842124291052502, guid: 55525183826877041b262aea62a81cf1, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 6704021903363333306, guid: 960ac84ffc439374a9a9a110e62fbfad, type: 3}
     - target: {fileID: 8976012833020007054, guid: 55525183826877041b262aea62a81cf1, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -10314,7 +10318,7 @@ PrefabInstance:
     - target: {fileID: 6080252429760202836, guid: daa0883778d223c47afe7ae212939c17, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 3694871347347415511, guid: fe5bc6a98237c3642b0be80469816871, type: 3}
+      objectReference: {fileID: 8092376272589972277, guid: b8d06381d7de4d848bcbf4d61f7ba137, type: 3}
     - target: {fileID: 6756577614079317020, guid: daa0883778d223c47afe7ae212939c17, type: 3}
       propertyPath: m_Name
       value: MysteryBlock (1)
@@ -10604,7 +10608,7 @@ PrefabInstance:
     - target: {fileID: 6080252429760202836, guid: daa0883778d223c47afe7ae212939c17, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 3694871347347415511, guid: fe5bc6a98237c3642b0be80469816871, type: 3}
+      objectReference: {fileID: 8092376272589972277, guid: b8d06381d7de4d848bcbf4d61f7ba137, type: 3}
     - target: {fileID: 6756577614079317020, guid: daa0883778d223c47afe7ae212939c17, type: 3}
       propertyPath: m_Name
       value: MysteryBlock (8)
