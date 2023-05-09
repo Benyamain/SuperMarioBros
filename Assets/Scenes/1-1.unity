@@ -4296,6 +4296,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4760601495354945526, guid: 37289029b15b9bd40849f08767d3227f, type: 3}
   m_PrefabInstance: {fileID: 849646327}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &852438682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 852438683}
+  m_Layer: 0
+  m_Name: Entrance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &852438683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852438682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 150, y: -4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1193040138}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &855797120 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2333760535898466858, guid: b17dea417c3b77646a2cafa758d3080c, type: 3}
@@ -4906,6 +4937,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 638889080}
     m_Modifications:
+    - target: {fileID: -2577706758817445743, guid: 890ffed875feb1940a85844f1573d6bb, type: 3}
+      propertyPath: connection
+      value: 
+      objectReference: {fileID: 852438683}
     - target: {fileID: 3647354263078916644, guid: 890ffed875feb1940a85844f1573d6bb, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -5660,6 +5695,7 @@ Transform:
   - {fileID: 1120545213}
   - {fileID: 529573481}
   - {fileID: 1599345455}
+  - {fileID: 852438683}
   m_Father: {fileID: 1734022266}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10065,6 +10101,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1193040138}
     m_Modifications:
+    - target: {fileID: -6066372144096881138, guid: 00156b753f9abb14c9fc369215fc8362, type: 3}
+      propertyPath: connection
+      value: 
+      objectReference: {fileID: 1912605493}
     - target: {fileID: 256449840523333606, guid: 00156b753f9abb14c9fc369215fc8362, type: 3}
       propertyPath: m_Name
       value: PipeConnection
