@@ -1426,6 +1426,10 @@ PrefabInstance:
       propertyPath: castle
       value: 
       objectReference: {fileID: 1512738378}
+    - target: {fileID: 1200245754688496363, guid: 7630b3797c63990498555d7cbc4499e8, type: 3}
+      propertyPath: nextStage
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7370908927231676187, guid: 7630b3797c63990498555d7cbc4499e8, type: 3}
       propertyPath: m_Name
       value: Flag Pole
